@@ -3,6 +3,11 @@
     border-radius: 10px;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #9c27b0;
 }
