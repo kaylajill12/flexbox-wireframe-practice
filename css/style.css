@@ -44,4 +44,24 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    .header {
+        flex: 1 100%;
+        order: 1;
+    }
+
+    .main {
+        flex: 3;
+        order: 3;
+    }
+
+    .aside {
+        flex: 1;
+        order: 2;
+    }
+
+    .footer {
+        flex: 1 100%;
+        order: 4;
+    }
 }
